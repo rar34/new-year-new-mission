@@ -107,11 +107,11 @@ section {
     margin-bottom: 180px;
 }
 
-.welcome-left-collumn {
+.welcome-left-column {
     padding: 126px 0 126px 126px;
 }
 
-.welcome-right-collumn {
+.welcome-right-column {
 
     padding-right: 126px;
 }
@@ -256,12 +256,23 @@ section {
 }
 
 input {
+    position: relative;
     padding: 25px;
-    border-radius: 16px;
+    border-radius: 50px 0 0 50px;
     border: 0;
     width: 40%;
 }
-
+.btn-submit{
+    position: relative;
+    padding: 19px 25px 23px 22px;
+    background-color: #F00;
+    border: 0;
+    color: #FFF;
+    border-radius: 0 50px 50px 0;
+    font-size: 20px;
+    font-weight: 600;
+    left: -5px;
+}
 /* footer related style */
 footer {
     background-color: #070211;
