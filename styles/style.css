@@ -7,7 +7,8 @@
     font-family: 'Inter', sans-serif;
 }
 
-header, main {
+header,
+main {
     max-width: 1320px;
     margin: auto;
 }
@@ -239,11 +240,12 @@ section {
     background: rgba(255, 0, 0, 0.05);
     padding: 80px 210px;
 }
-.subscribe-img{
+
+.subscribe-img {
     margin-bottom: 40px;
 }
 
-input{
+input {
     padding: 25px;
     border-radius: 16px;
     border: 0;
@@ -251,24 +253,51 @@ input{
 }
 
 /* footer related style */
-footer{
+footer {
     background-color: #070211;
-    color: #FFF;
-    font-family: inter;
     padding: 120px 140px;
 }
 
-.contact-container{
+.footer-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact-container {
     display: flex;
     justify-content: space-between;
 }
-.contact{
+
+.contact {
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 10px;
-   
+    padding-right: 80px;
 }
+
 .contact a {
     color: white;
+    text-decoration: none;
+}
+
+hr {
+    opacity: 15%;
+    margin: 50px 0px;
+}
+
+/* social media */
+.social-media,
+a {
+    text-align: center;
+    margin-right: 24px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-end a{
     text-decoration: none;
 }
