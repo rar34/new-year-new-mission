@@ -107,11 +107,10 @@ section {
     padding-right: 126px;
 }
 
-.img-2024 {
+/* .img-2024 {
     max-width: 319.83px;
     max-height: 464.662px;
-
-}
+} */
 
 .welcome-heading {
     color: #FFF;
@@ -208,4 +207,26 @@ section {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
+}
+
+/* portfolio section style */
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+.portfolio-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
