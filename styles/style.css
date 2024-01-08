@@ -301,6 +301,7 @@ section {
 
 .portfolio-image:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 /* subscribe section style */
