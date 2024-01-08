@@ -334,7 +334,9 @@ input[type="submit"] {
     left: -5px;
     cursor: pointer;
 }
-
+input[type="submit"]:hover{
+    background-color: orange;
+}
 /* footer related style */
 footer {
     background-color: #070211;
