@@ -116,10 +116,11 @@ section {
     padding-right: 126px;
 }
 
-/* .img-2024 {
+.img-2024 {
     max-width: 319.83px;
     max-height: 464.662px;
-} */
+    /* mix-blend-mode: multiply; */
+}
 
 .welcome-heading {
     color: #FFF;
@@ -146,8 +147,11 @@ section {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
-
+.btn-join:hover{
+    background-color: orange;
+}
 /* join now section style */
 .join-now-section-container {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -231,6 +235,12 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+}
+.portfolio-image{
+    transition: transform .2s;
+}
+.portfolio-image:hover{
+    transform: scale(1.2);
 }
 
 /* subscribe section style */
